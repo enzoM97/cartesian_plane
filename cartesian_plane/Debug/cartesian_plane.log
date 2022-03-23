@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\enzom\source\repos\cartesian_plane\cartesian_plane\main.cpp(40,25): warning C4305: 'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\enzom\source\repos\cartesian_plane\cartesian_plane\main.cpp(62,41): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\enzom\source\repos\cartesian_plane\cartesian_plane\main.cpp(73,41): warning C4305: '+=': truncamiento de 'double' a 'float'
+  cartesian_plane.vcxproj -> C:\Users\enzom\source\repos\cartesian_plane\Debug\cartesian_plane.exe

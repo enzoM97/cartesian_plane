@@ -14,7 +14,7 @@ void init(void)
 {
 	// color de la ventana, negro
 	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-	//  proyección de la imagen en la ventana devisualización
+	//  proyecciÃ³n de la imagen en la ventana devisualizaciÃ³n
 }
 
 void drawSquare() {
@@ -57,28 +57,26 @@ void drawCartesianPlane(void)
 	int height = glutGet(GLUT_WINDOW_HEIGHT);
 	
 	glClear(GL_COLOR_BUFFER_BIT);
+	glPointSize(2.0);
 	
 	// vertical axis
 	for (float i = -1.0; i < 1.0; i += 0.02) {
 		glColor3f(rand() / ((float) RAND_MAX + 1), rand() / ((float)RAND_MAX + 1), rand() / ((float)RAND_MAX + 1));
-		glPointSize(2.0);
 
 		glBegin(GL_POINTS);
 		glVertex2d(0, i);
 		glEnd();
-		glFlush();
 	}
 
 	// horizontal axis
 	for (float i = -1.0; i < 1.0; i += 0.02) {
 		glColor3f(rand() / ((float)RAND_MAX + 1), rand() / ((float)RAND_MAX + 1), rand() / ((float)RAND_MAX + 1));
-		glPointSize(2.0);
 
 		glBegin(GL_POINTS);
 		glVertex2d(i, 0);
 		glEnd();
-		glFlush();
 	}
+	glFlush();
 }
 
 int main(int argc, char** argv)

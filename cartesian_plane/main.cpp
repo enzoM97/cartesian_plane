@@ -84,7 +84,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);//selecciona el RGB y single buffering
 	glutInitWindowSize(512, 512);//fija el tamanho de la ventana
 	glutInitWindowPosition(400, 150);//fija la posicion de la ventana
-	glutCreateWindow("tarea#2");//crea la ventana con el nombre							
+	glutCreateWindow("cartesian plane");//crea la ventana con el nombre							
 	//Llamar a la funcion init
 	init();
 	//declara los callbacks
